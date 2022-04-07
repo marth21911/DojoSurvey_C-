@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Survey" method="post">
+        <label for="Name">Name</label>
+            <input type="text" name="Name" id="">
+        <label for="Location">Location:</label>
+            <select list="Location" name="Location" id="">
+                <datalist id="Location">
+                    <option value="New York">New York</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Menomonie">Menomonie</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Azeroth">Azeroth</option>
+                </datalist>
+            </select>
+        <label for="Language">Favorite Language</label>
+            <select list="Language" name="Language" id="">
+                <datalist id="Language">
+                    <option value="COBOL">COBOL</option>
+                    <option value="Assembly">Assembly</option>
+                    <option value="C#">C#</option>
+                    <option value="Python">Python</option>
+                    <option value="Javascript">witchcraft</option>
+                </datalist>
+            </select>
+        <label for="Comments">Comments</label>
+            <input type="text" size=500 name="Comments">
+            <input type="submit" name="submit" id="">
+    </form>
+</body>
+</html>
